@@ -193,7 +193,7 @@ header .search-icon {
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 @keyframes typing {
