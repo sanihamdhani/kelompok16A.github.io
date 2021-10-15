@@ -1,1 +1,52 @@
 /* CSS RESPONSIVE ROSALINA */
+/* Bagian rosalina */
+
+@media (max-width: 670px) {
+  .btn-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .show {
+    background-color: rgb(102, 173, 44);
+    width: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  header .header-items {
+    display: none;
+  }
+  header form .search-data {
+    display: none;
+  }
+
+  header .menu-icon {
+    display: block;
+  }
+
+  header form {
+    display: none;
+  }
+
+  header .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 58%;
+  }
+
+  header .header-items {
+    display: none;
+  }
+
+  header .menu-icon {
+    display: block;
+  }
+}
