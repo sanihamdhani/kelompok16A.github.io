@@ -1,3 +1,5 @@
+/*---Bagian Awalan Rosalina--*/
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -158,7 +160,7 @@ header .search-icon {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-image: url(./shop3.jpg);
+  background-image: url(images/shop2.jpg);
   background-size: 100% 100%;
   animation-name: example;
   animation-duration: 20s;
@@ -169,7 +171,7 @@ header .search-icon {
     background-image: url(https://images.unsplash.com/photo-1542060748-10c28b62716f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   }
   10% {
-    background-image: url(./shop.jpg);
+    background-image: url(images/shop.jpg);
   }
 }
 
@@ -270,6 +272,7 @@ p {
     opacity: 1;
   }
 }
+
 /* CSS SANI */
 .main-body {
   text-align: center;
@@ -326,12 +329,10 @@ p {
   color: #4e4e4e;
 }
 
-/*---Bagian Rosalina Responsive---*/
 .body-image {
-  max-width: 40%;
-  height: auto;
-  height: 40%;
-  width: 50%;
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  height: 250px;
 }
 
 .body-title {
@@ -339,11 +340,16 @@ p {
   margin: 20px;
 }
 
-/* CSS SEPTERINA */
-#footer {
-  text-align: center;
-  color: black;
+/* Footer Septerina*/
+
+footer {
+  font-weight: 300px;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background-image: linear-gradient(to right, #5c7992, #d7e2de);
 }
-#hr {
-  margin-top: 300px;
+
+footer p {
+  text-align: center;
+  font-size: 100px;
 }
