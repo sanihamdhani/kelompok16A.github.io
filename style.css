@@ -129,3 +129,10 @@ img {
 }
 
 /* CSS SEPTERINA */
+#footer{
+	text-align: center;
+	color: black; 
+}
+#hr{
+	margin-top: 300px;
+}
